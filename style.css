@@ -1,0 +1,39 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #FFF;
+    --blue-color: #0258F8;
+    --text-color-1: #1D1E25;
+    --text-color-2: #7E8492;
+    --shadow-color: #E3DCFC;
+    --stars-color: #FACC15;
+}
+
+/* ESTILO TEMPORARIO PARA A CLASSIFICAÇÃO(ESTRELAS) NO HERO */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stars {
+    display: flex;
+    gap: 2px;
+}
+  
+.star {
+    width: 16px; /* falta ajustar o tamanho certo */
+    height: 16px;
+    object-fit: contain;
+}  
+
+.rating-text {
+    font-size: 14px;
+    color: var(--text-color-1);
+    font-weight: 500;
+}
