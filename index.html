@@ -11,15 +11,15 @@
 <body>
     <header class="header">
         <div class="container header-inner">
-            <h1><img src="./Images/Logos/Coca.png">coca</h1>
+            <img src="./Images/Logos/Coca-Logo.png">
 
-            <nav class id="menu" aria-label="Main Menu">
+            <nav class="nav" id="menu" aria-label="Main Menu">
                 <div class="menu-mobile">
                     <button id="menu-toggle" aria-label="Open Mobile Menu">&#9776;</button>
                 </div>
 
                 <div class="menu-desktop">
-                    <ul class="left">
+                    <ul class="menu-left">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Blog</a></li>
@@ -27,8 +27,8 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
 
-                    <ul class="right">
-                        <li><button><a href="#">Start For Free</a></button></li>
+                    <ul class="menu-right">
+                        <li><a href="#" class="btn">Start For Free</a></li>
                     </ul>
                 </div>
             </nav>
@@ -55,7 +55,7 @@
 
                 <div class="hero-buttons">
                     <a href="#" class="btn-primary">Sign up for free</a>
-                    <a href="#" class="btn-secundary">
+                    <a href="#" class="btn-secondary">
                         <img src="./Images/General-Icons/Play.png" alt="Play">Watch A Demo
                     </a>
                 </div>
@@ -77,7 +77,7 @@
 
         <section class="brands">
             <div class="container">
-               <div class="brands-logos">
+               <div class="brand-logos">
                     <img src="./Images/Logos/Companys-Logos/afterpay.png" alt="Afterpay Logo">
                     <img src="./Images/Logos/Companys-Logos/hopin.png" alt="Hopin Logo">
                     <img src="./Images/Logos/Companys-Logos/splunk.png" alt="Splunk Logo">
@@ -120,19 +120,288 @@
             </div>
         </section>
 
-        <section>
+        <section class="storage-options">
             <div class="container">
-                <h2 class="-title">Coco offers cloud, local, or hybrid storage options.</h2>
-                <p class="-subtitle">Effortlessly Manage Your Data with Coco's Flexible Cloud, Local, or Hybrid Storage Options</p>
+                <h2 class="storage-title">Coco offers cloud, local, or hybrid storage options.</h2>
+                <p class="storage-subtitle">Effortlessly Manage Your Data with Coco's Flexible Cloud, Local, or Hybrid Storage Options</p>
 
-                <p class=""><img src="./Images/General-Icons/Right.png" alt="Right">Have control over accessing your data</p>
-                <p class=""><img src="./Images/General-Icons/Right.png" alt="Right">Secure for the entire company</p>
-                <p class=""><img src="./Images/General-Icons/Right.png" alt="Right">Enhance your productivity</p>
+                <ul class="storage-features">
+                    <li class="feature-item">
+                        <img src="./Images/General-Icons/Right.png" alt="Check icon">
+                        <span>Have control over accessing your data</span>
+                    </li>
+
+                    <li class="feature-item">
+                        <img src="./Images/General-Icons/Right.png" alt="Check icon">
+                        <span>Secure for the entire company</span>
+                    </li>
+
+                    <li class="feature-item">
+                        <img src="./Images/General-Icons/Right.png" alt="Check icon">
+                        <span>Enhance your productivity</span>
+                    </li>
+                </ul>
+
+                <div class="storage-image">
+                    <img src="./Images/Sections/Storage/background.png" alt="Background Image" class="img-bg">
+                    <img src="./Images/Sections/Storage/overlay-card.png" alt="Card Overlay" class="img-overlay">
+                </div>
+            </div>
+        </section>
+
+        <section class="recovery-options">
+            <div class="container">
+                <h2 class="recovery-title">Recover deleted files from cloud storage with ease</h2>
+                <p class="recovery-subtitle">Cloud Storage Data Recovery: Effortlessly Retrieve Your Deleted Files Anytime, Anywhere</p>
+
+                <ul class="recovery-features">
+                    <li class="feature-item">
+                        <img src="./Images/General-Icons/Right.png" alt="Check icon">
+                        <span>Support options when you need them</span>
+                    </li>
+
+                    <li class="feature-item">
+                        <img src="./Images/General-Icons/Right.png" alt="Check icon">
+                        <span>Maximizing performance</span>
+                    </li>
+
+                    <li class="feature-item">
+                        <img src="./Images/General-Icons/Right.png" alt="Check icon">
+                        <span>Feature-packed web hosting</span>
+                    </li>
+                </ul>
+
+                <div class="recovery-images">
+                    <!-- MOBILE: apenas uma imagem com sobreposição -->
+                    <div class="image-wrapper mobile-only">
+                        <img src="./Images/Sections/Recovery/background1.png" alt="Background" class="img-bg">
+                        <img src="./Images/Sections/Recovery/overlay-card1.png" alt="Overlay" class="img-overlay">
+                    </div>
+
+                    <!-- DESKTOP: duas imagens com sobreposição -->
+                     <div class="image-wrapper desktop-only">
+                        <div class="image-block">
+                            <img src="./Images/Sections/Recovery/background1.png" alt="Background 1" class="img-bg">
+                            <img src="./Images/Sections/Recovery/overlay-card1.png" alt="Overlay 1" class="img-overlay">
+                        </div>
+
+                        <div class="image-block">
+                            <img src="./Images/Sections/Recovery/background2.png" alt="Background 2" class="img-bg">
+                            <img src="./Images/Sections/Recovery/overlay-card2.png" alt="Overlay 2" class="img-overlay">
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages-intro">
+                    <h2>Our advantages include</h2>
+                    <p>Our Strengths and Advantages: Discover What Makes Us the Most Reliable and Effective Partner for Your Business.</p>
+                    <a href="#" class="btn-learn-more">Learn More</a>
+                </div>
+
+                <div class="advantages-cards">
+                    <article class="advantage-card">
+                        <h3>Embedded Security</h3>
+                        <p>Security pertains to the protection of data, while privacy pertains to the protection of the individual user.</p>
+                        <img src="./Images/General-Icons/Settings.png" alt="Settings Icon" class="advantage-icon">
+                    </article>
+
+                    <article class="advantage-card">
+                        <h3>Outstanding Performance</h3>
+                        <p>Achieving peak workplace performance through optimal technology and a well-designed physical environment.</p>
+                        <img src="./Images/General-Icons/Plane.png" alt="Plane Icon" class="advantage-icon">
+                    </article>
+                    
+                    <article class="advantage-card">
+                        <h3>Customized for IT</h3>
+                        <p>Design, system, or process optimization is about efficiency and effectiveness.</p>
+                        <img src="./Images/General-Icons/Chart.png" alt="Chart Icon" class="advantage-icon">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="customers-reviews">
+            <div class="container">
+                <p class="customers-little-title">Our customer review</p>
+                <h3 class="customer-title">Our clients knows the value we provide</h3>
+                <p class="customer-subtitle">We take great pride in the satisfaction of our clients, as evidenced by their glowing feedback about our exceptional service.</p>
+
+                <!-- MOBILE: somente reviews do mobile -->
+                <div class="reviews mobile-only">
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile1.png" alt="Profile 1" class="review-profile">
+                        <p class="review-autor">Savannah Nguyen</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile3.png" alt="Profile 3" class="review-profile">
+                        <p class="review-autor">Ronald Richards</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile4.png" alt="Profile 4" class="review-profile">
+                        <p class="review-autor">Rakabuming Suhu</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DESKTOP: todas as reviews -->
+                <div class="reviews desktop-only">
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile1.png" alt="Profile 1" class="review-profile">
+                        <p class="review-autor">Savannah Nguyen</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile2.png" alt="Profile 2" class="review-profile">
+                        <p class="review-autor">Eleanor Pena</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile3.png" alt="Profile 3" class="review-profile">
+                        <p class="review-autor">Ronald Richards</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <img src="./Images/Profiles/Profile4.png" alt="Profile 4" class="review-profile">
+                        <p class="review-autor">Rakabuming Suhu</p>
+                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
+
+                        <div class="stars">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                            <img src="./Images/General-Icons/Star.png" alt="Star" class="star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore">
+            <div class="container">
+                <h3 class="explore-title">We prioritize your dating security. Explore now!</h3>
+                <p class="explore-subtitle">We make dating secure and hassle-free, so you can focus on finding love. Explore our dating services now!</p>
+
+                <a href="#" class="btn-explore">Get Started Now</a>
             </div>
         </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <h3 class="footer-title">Let's join Coca Pay, We protect your money</h3>
+
+                <ul class="footer-features">
+                    <li class="feature-location">
+                        <img src="./Images/General-Icons/Maps.png" alt="Maps Icon">
+                        <span>1929, Bancangan, Sambit, Suroboyo, Wakanda</span>
+                    </li>
+
+                    <li class="feature-contact">
+                        <img src="./Images/General-Icons/E-mail.png" alt="E-mail Icon">
+                        <span>hello@cocapay.co</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <img src="./Images/Logos/Coca-Logo-White.png" alt="Coca Logo White" class="footer-logo">
+
+                <ul class="footer-social-list">
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>Help</li>
+                    <li>Features</li>
+                    <li>Careers</li>
+                </ul>
+
+                <div class="footer-social-icons">
+                    <img src="./Images/SocialMedia-Icons/Facebook.png" alt="Facebook Icon">
+                    <img src="./Images/SocialMedia-Icons/Twiter.png" alt="Twiter Icon">
+                    <img src="./Images/SocialMedia-Icons/Instagram.png" alt="Instagram Icon">
+                    <img src="./Images/SocialMedia-Icons/Linkedin.png" alt="Linkedin Icon">     
+                </div>
+            </div>
+
+            <div class="footer-separator"></div>
+
+            <div class="footer-social-rights">
+                <div class="footer-social-conditions">
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+
+                <p>&copy; Coca Pay by Sans Brothers</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
