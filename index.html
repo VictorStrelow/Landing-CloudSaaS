@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing - Cloud SaaS</title>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +19,7 @@
 
             <nav class="nav" id="menu" aria-label="Main Menu">
                 <div class="menu-mobile">
-                    <button id="menu-toggle" aria-label="Open Mobile Menu">&#9776;</button>
+                    <button id="menu-toggle" aria-label="Open Mobile Menu"><img src="./Images/General-Icons/Menu.png" alt="Menu Mobile"></button>
                 </div>
 
                 <div class="menu-desktop">
@@ -23,7 +27,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Princing</a></li>
+                        <li><a href="#">Pricing</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
 
@@ -95,26 +99,26 @@
                 <div class="benefits-stats">
                     <div class="stat">
                         <h3>400+</h3>
-                        <p><strong>Projects completed</strong></p>
-                        <p>We've helped build over 400 amazing projects.</p>
+                        <p class="stat-title"><strong>Projects completed</strong></p>
+                        <p class="stat-text">We've helped build over 400 amazing projects.</p>
                     </div>
 
                     <div class="stat">
                         <h3>600%</h3>
-                        <p><strong>Return on investment</strong></p>
-                        <p>Our customers have reported an average of ~600% ROI.</p>
+                        <p class="stat-title"><strong>Return on investment</strong></p>
+                        <p class="stat-text">Our customers have reported an average of ~600% ROI.</p>
                     </div>
 
                     <div class="stat">
                         <h3>10k</h3>
-                        <p><strong>Global downloads</strong></p>
-                        <p>Our free UI kit has been downloaded over 100k times.</p>
+                        <p class="stat-title"><strong>Global downloads</strong></p>
+                        <p class="stat-text">Our free UI kit has been downloaded over 100k times.</p>
                     </div>
 
                     <div class="stat">
                         <h3>200+</h3>
-                        <p><strong>5-star reviews</strong></p>
-                        <p>We're proud of our 5-star rating with over 200 reviews.</p>
+                        <p class="stat-title"><strong>5-star reviews</strong></p>
+                        <p class="stat-text">We're proud of our 5-star rating with over 200 reviews.</p>
                     </div>
                 </div>
             </div>
@@ -234,8 +238,8 @@
                 <div class="reviews mobile-only">
                     <div class="review">
                         <img src="./Images/Profiles/Profile1.png" alt="Profile 1" class="review-profile">
-                        <p class="review-autor">Savannah Nguyen</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Savannah Nguyen</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -249,8 +253,8 @@
 
                     <div class="review">
                         <img src="./Images/Profiles/Profile3.png" alt="Profile 3" class="review-profile">
-                        <p class="review-autor">Ronald Richards</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Ronald Richards</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -264,8 +268,8 @@
 
                     <div class="review">
                         <img src="./Images/Profiles/Profile4.png" alt="Profile 4" class="review-profile">
-                        <p class="review-autor">Rakabuming Suhu</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Rakabuming Suhu</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -282,8 +286,8 @@
                 <div class="reviews desktop-only">
                     <div class="review">
                         <img src="./Images/Profiles/Profile1.png" alt="Profile 1" class="review-profile">
-                        <p class="review-autor">Savannah Nguyen</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Savannah Nguyen</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -297,8 +301,8 @@
 
                     <div class="review">
                         <img src="./Images/Profiles/Profile2.png" alt="Profile 2" class="review-profile">
-                        <p class="review-autor">Eleanor Pena</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Eleanor Pena</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -312,8 +316,8 @@
 
                     <div class="review">
                         <img src="./Images/Profiles/Profile3.png" alt="Profile 3" class="review-profile">
-                        <p class="review-autor">Ronald Richards</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Ronald Richards</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -327,8 +331,8 @@
 
                     <div class="review">
                         <img src="./Images/Profiles/Profile4.png" alt="Profile 4" class="review-profile">
-                        <p class="review-autor">Rakabuming Suhu</p>
-                        <p class="review-autor-company">CEO Sans Brothers</p>
+                        <p class="review-author">Rakabuming Suhu</p>
+                        <p class="review-author-company">CEO Sans Brothers</p>
                         <p class="review-text">"It was a pleasure working with the Coca team. They understood the brief correctly and delivered great designs exceeding the expectations."</p>
 
                         <div class="stars">
@@ -375,11 +379,11 @@
                 <img src="./Images/Logos/Coca-Logo-White.png" alt="Coca Logo White" class="footer-logo">
 
                 <ul class="footer-social-list">
-                    <li>Overview</li>
-                    <li>Pricing</li>
-                    <li>Help</li>
-                    <li>Features</li>
-                    <li>Careers</li>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Careers</a></li>
                 </ul>
 
                 <div class="footer-social-icons">
