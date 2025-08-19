@@ -810,3 +810,299 @@ body {
   opacity: 0.9;
   margin-bottom: 2.5rem;
 }
+
+/* RESPONSIVIDADE TABLET (768px) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+
+  /* Header */
+  .header {
+    padding: 1rem 0;
+  }
+
+  .header img {
+    max-height: 100px;
+  }
+
+  /* Menu mobile */
+  .menu-mobile {
+    display: block;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+
+  #menu-toggle {
+    background: none;
+    max-height: 60px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 19px;
+    margin-bottom: 2rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: auto;
+    min-width: 160px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .btn-secondary {
+    padding-left: 3rem;
+  }
+
+  .hero-users {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .hero-image img {
+    width: 700px;
+    height: 600px;
+    margin-left: 0;
+  }
+
+  /* Benefits */
+  .benefits {
+    padding: 4rem 0;
+  }
+
+  .benefits-title {
+    font-size: 40px;
+  }
+
+  .benefits-subtitle {
+    font-size: 18px;
+    margin: 1.5rem auto;
+  }
+
+  .benefits-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .stat h3 {
+    font-size: 38px;
+  }
+
+  .stat .stat-title {
+    font-size: 22px;
+  }
+
+  .stat .stat-text {
+    font-size: 18px;
+  }
+
+  /* Storage Options */
+  .storage-options {
+    margin-top: 6rem;
+  }
+
+  .storage-title {
+    font-size: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .storage-subtitle {
+    max-width: 700px;
+    margin: 1.5rem auto;
+    font-size: 18px;
+  }
+
+  .storage-features {
+    max-width: 650px;
+    margin: 0 auto 3rem auto;
+  }
+
+  .feature-item {
+    font-size: 18px;
+  }
+
+  .feature-item img {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Recovery Options */
+  .recovery-options {
+    margin-top: 6rem;
+  }
+
+  .recovery-title {
+    font-size: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .recovery-subtitle {
+    max-width: 500px;
+    font-size: 18px;
+  }
+
+  .recovery-features {
+    max-width: 650px;
+    margin: 0 auto 3rem auto;
+  }
+
+  .recovery-features .feature-item {
+    font-size: 18px;
+  }
+
+  .recovery-features .feature-item img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .recovery-image .mobile-only {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    border-radius: 3px;
+  }
+
+  /* Advantages */
+  .advantages {
+    margin-top: 6rem;
+  }
+
+  .advantages-intro h2 {
+    font-size: 40px;
+  }
+
+  .advantages-intro p {
+    max-width: 500px;
+    font-size: 18px;
+  }
+
+  .advantages-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 700px;
+    margin: 3rem auto 0;
+  }
+
+  /* Customer Reviews */
+  .customers-little-title {
+    font-size: 16px;
+    width: 210px;
+  }
+
+  .customer-title {
+    font-size: 40px;
+  }
+
+  .customer-subtitle {
+    font-size: 18px;
+    max-width: 700px;
+  }
+
+  .reviews.mobile-only {
+    display: none;
+  }
+
+  .reviews.desktop-only {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* BAR */
+  .wrapper {
+    margin-top: 2rem;
+  }
+
+  /* EXPLORE */
+  .explore {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .explore-title {
+    font-size: 40px;
+  }
+
+  .explore-subtitle {
+    font-size: 18px;
+    max-width: 700px;
+  }
+
+  .footer {
+    margin-top: 2.7rem;
+    background-color: var(--blue-color);
+    color: var(--bg-color);
+    padding: 40px 0 24px 20px;
+  }
+
+  .footer-inner {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 22px;
+  }
+
+  /* Seção do título e informações de contato */
+  .footer-title {
+    font-size: 40px;
+  }
+
+  .footer-features span {
+    font-size: 18px;
+  }
+
+  /* Seção do logo e links */
+  .footer-social-list a {
+    font-size: 18px;
+  }
+
+  /* Ícones das redes sociais */
+  .footer-social-icons img {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Separador */
+  .footer-separator {
+    background-color: #FAFBFF;
+  }
+
+  /* Seção final - termos e copyright */
+ .footer-social-conditions p {
+    font-size: 18px;
+  }
+
+  .footer-social-rights > p {
+    font-size: 18px;
+  }
+}
+
+/* RESPONSIVIDADE DESKTOP (1040px) */
+
+/* RESPONSIVIDADE DESKTOP (1440px) */
